@@ -14,7 +14,6 @@ body {
     width: 60%;
     margin-bottom: 20px;
     text-align: center;
-    filter: drop-shadow(0 0 10px rgba(138, 138, 138, 0.5)); /* Add a shadow around the image */
   }
   
   .logo-container img {
