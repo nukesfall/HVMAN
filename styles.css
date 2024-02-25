@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Add a background color to see the shadow */
+  }
+  
+  .logo-container {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+    filter: drop-shadow(0 0 10px rgba(138, 138, 138, 0.5)); /* Add a shadow around the image */
+  }
+  
+  .logo-container img {
+    width: 100%;
+    height: auto;
+  }
+  
