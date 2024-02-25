@@ -11,17 +11,14 @@ body {
   }
   
   .logo-container {
-    width: 60%;
+    width: 30%;
     margin-bottom: 20px;
     text-align: center;
+    filter: drop-shadow(0 0 10px rgba(165, 165, 165, 0.5)); /* Add a shadow around the image */
   }
   
   .logo-container img {
     width: 100%;
     height: auto;
   }
-
-footer {
-  color: #ccc; /* Light grey color */
-}
-
+  
