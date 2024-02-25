@@ -7,18 +7,22 @@ body {
     min-height: 100vh;
     flex-direction: column;
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0; /* Add a background color to see the shadow */
+    background-color: #000; /* Black background color */
+    color: #fff; /* White text color */
   }
   
   .logo-container {
     width: 65%;
     margin-bottom: 20px;
     text-align: center;
-    filter: drop-shadow(0 0 10px rgba(165, 165, 165, 0.5)); /* Add a shadow around the image */
   }
   
   .logo-container img {
     width: 100%;
     height: auto;
+  }
+  
+  footer {
+    color: #888;
   }
   
